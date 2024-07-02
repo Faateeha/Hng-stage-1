@@ -59,9 +59,10 @@ a:hover {
     padding: 5px;
     border-radius: 5px;
 }
-.menu{
-    display: none;
-    cursor: pointer;
+.socials {
+    border: 2px solid brown;
+    padding: 5px;
+    border-radius: 5px;
 }
 /*media query*/
 @media (max-width:375px) {
