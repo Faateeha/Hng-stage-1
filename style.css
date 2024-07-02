@@ -50,8 +50,21 @@ a:hover {
     margin-block: 30px;
 }
 .link a{
-    margin-inline: 10px;
+    
     border: 2px solid brown;
     padding: 5px;
     border-radius: 5px;
+}
+/*media query*/
+@media (max-width:375px) {
+    .profile {
+        display: block;
+    }
+    .link{
+        display: block;
+        width: 100%;
+    }
+    .main{
+        margin-inline: 10px;
+    }
 }
