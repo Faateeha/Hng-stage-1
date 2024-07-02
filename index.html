@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+        <div class="navbar" id="navbar">
+            <div class="logo">
+                <h1>HNG</h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#goals">Goals</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="profile" id="profile">
+            <div class="img">
+                <img data-testid="slackProfilePicture" src="./Images/slackdp.jpg" alt="slackProfilePicture">
+            </div>
+            <div class="profile2">
+                <h1 data-testid="slackDisplayName" class="name">Adeyemi Fathia</h1>
+                <p class="track">Frontend Developer</p>
+                <p data-testid="slackEmail" class="email">fathiaomolara02@gmail.com</p>
+                <p class="location">Lagos, Nigeria</p>
+                <p><a href="mailto:fathiaomolara02@gmail.com" target="_blank">Send a Mail</a></p>
+                <p><a href="https://github.com/Faateeha" target="_blank">Connect with me on Github</a></p>
+                <p><a href="http://linkedin.com/in/adeyemi-fathia-a73908270" target="_blank">Connect with me on Linkedin</a></p>
+                <p><a href="https://x.com/Adeyemi_fathia_">Connect with me on X</a></p>
+                <div id="time" data-testid="currentTimeUTC"></div>
+                <div id="day" data-testid="currentDay"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="about" id="about">
+            <h1>About</h1>
+            <p>As a frontend developer, I craft intuitive interfaces that make technology accessible to all. With a passion for creating seamless user experiences, I specialize in building engaging web applications that drive results. With one year of experience and expertise in React.js, Vue.js, Typescript, tailwind css, AOS. I've delivered some innovative projects. I’m excited to collaborate on innovative projects that push the boundaries of web development.</p>
+        </div>
+        <div class="goals" id="goals">
+            <h1>Goals</h1>
+            <h2>As  a frontend developer who is also interested in science; here are some of my goals:</h2>
+            <ul>
+                <li>Explore opportunities to develop solutions that address challenges in both scientific research and technological advancements.</li>
+                <li>Contribute to bridging gaps between scientific discoveries and practical applications through innovative tech solutions.</li>
+                <li>Expand my knowledge and skills in both fields to become a more effective contributor to advancements at the intersection of science and technology.</li>
+                <li>Network with professionals in both science and technology fields to exchange ideas and collaborate on innovative projects.</li>
+                <li>Actively seek out opportunities to apply my technical expertise in frontend development to enhance scientific workflows and outcomes.</li>
+            </ul>
+        </div>
+        <div class="link">
+            <a href="https://hng.tech/learn" data-testid="hngLink" target="_blank"> HngLink</a>
+            <a href="https://keyword.dog" data-testid="KeywordLink" target="_blank">Keyword.dog</a>
+            <a href="https://scrapeanyweb.site/" data-testid="scrapeanywebLink" target="_blank">ScrapeanywebLink</a>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>&copy; Adeyemi</p>
+            <a href="#navbar">Back to top</a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(245, 245, 200);
+    color: brown;
+    padding: 10px;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 10px;
+}
+.logo h1 {
+    font-size: 2.5em;
+
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;  
+}
+.nav li {
+    margin: 0 10px;
+    display: inline;
+    list-style: none;
+    font-size: 1.5rem;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.profile2 {
+    margin-inline: 15px;
+}
+a {
+    text-decoration: none;
+    color: brown;
+}
+a:hover {
+    color: rgb(245, 245, 200);
+    background-color: brown;
+    padding: 5px;
+    border-radius: 5px;
+}
+.socials{
+    display: block;
+}
+.link {
+    margin-block: 30px;
+}
+.link a{
+    margin-inline: 10px;
+    border: 2px solid brown;
+    padding: 5px;
+    border-radius: 5px;
+}
